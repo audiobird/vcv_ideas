@@ -1,0 +1,3 @@
+[submodule "audiobird"]
+	path = dep/audiobird
+	url = git@github.com:audiobird/audiobird.git
