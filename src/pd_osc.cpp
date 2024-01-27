@@ -1,8 +1,6 @@
-#include "audiobird/lofi.hh"
 #include "plugin.hpp"
 
 struct Pd_osc : Module {
-  Audiobird::Lofi::SampleRateReducer<float> lofi_test;
   enum ParamId {
     P_0_PARAM,
     P_1_PARAM,
@@ -66,10 +64,7 @@ struct Pd_osc : Module {
     configOutput(OUT_7_OUTPUT, "");
   }
 
-  void process(const ProcessArgs &args) override {
-    const auto o = lofi_test.update(inputs[0].getVoltage());
-    outputs[0].setVoltage(o);
-  }
+  void process(const ProcessArgs &args) override {}
 };
 
 struct Pd_oscWidget : ModuleWidget {
