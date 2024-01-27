@@ -1,0 +1,16 @@
+{
+  "slug": "ideas",
+  "name": "ideas",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "audiobird",
+  "author": "audiobird",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": []
+}
